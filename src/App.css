@@ -1,0 +1,32 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  main {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  form span {
+    color: red;
+    font-size: 0.8em;
+  }
+  
