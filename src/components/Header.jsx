@@ -6,10 +6,10 @@ function Header() {
     <header>
       <h1>Romy Pisigan</h1>
       <nav>
-        <NavLink to="/" exact activeClassName="active">About Me</NavLink>
-        <NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink>
-        <NavLink to="/contact" activeClassName="active">Contact</NavLink>
-        <NavLink to="/resume" activeClassName="active">Resume</NavLink>
+        <NavLink to="/">About Me</NavLink>
+        <NavLink to="/portfolio">Portfolio</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <NavLink to="/resume">Resume</NavLink>
       </nav>
     </header>
   );
