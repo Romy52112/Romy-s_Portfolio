@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App animated-background">
         <Header />
         <Routes>
           <Route path="/" element={<AboutMe />} />

@@ -1,11 +1,22 @@
+.name{
+  display:flex;
+  justify-content: center;
+}
 .App {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
+
+.aboutMe-title{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:blueviolet;
+}
   
   header, footer {
-    background-color: #333;
+    background-color: #003b5e;
     color: white;
     padding: 1rem;
   }
@@ -14,13 +25,17 @@
     flex: 1;
     padding: 1rem;
   }
-  
+ 
   nav a {
-    margin: 0 10px;
+    position:relative;
+    display: inline-block;
+    font-size:1em;
+    font-weight: 500;
+    padding: 0 23px;
     text-decoration: none;
     color: white;
   }
-  
+
   nav a.active {
     font-weight: bold;
   }
@@ -29,4 +44,8 @@
     color: red;
     font-size: 0.8em;
   }
+
+ 
+
+
   
