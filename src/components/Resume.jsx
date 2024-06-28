@@ -4,13 +4,18 @@ function Resume() {
   return (
     <section>
       <h2>Resume</h2>
-      <a href="path-to-resume.pdf" download>Download Resume</a>
+      <a className="resume" href="/Romy's Resume.pdf" download>Download Resume</a>
       <h3>Proficiencies</h3>
       <ul>
         <li>JavaScript</li>
         <li>React</li>
         <li>Node.js</li>
-        {/* Add more proficiencies as needed */}
+        <li>Express</li>
+        <li>MongoDB</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MySql</li>
+        
       </ul>
     </section>
   );
