@@ -316,6 +316,28 @@ li {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
 }
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    padding: 15px;
+  }
+
+  .grid-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .grid-item p {
+    font-size: 0.9rem;
+  }
+
+  .grid-item a {
+    font-size: 0.9rem;
+  }
+}
  
 
 
