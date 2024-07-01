@@ -4,7 +4,7 @@
   ![alt text](<my portfolio.png>)
 
   ## Deployed Application
-  https://majestic-lollipop-bf536d.netlify.app
+  https://romypisiganportfolio.netlify.app
 
   ## Description
   This is my portfolio using REACT. It has four section, first is ABOUT ME, it is a little description of me. Second, PORTFOLIO, I put all my project in bootcamp in this section. Third, CONTACT, where you can contact me and lastly, RESUME, it includes the list of my proficiencies and my resume where you can download it.
