@@ -1,22 +1,23 @@
-body{
-  margin:0;
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.name{
-  display:flex;
-  justify-content: center;
-}
-.App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
 
-  main {
-    flex: 1;
-    padding: 1rem;
-  }
- /* css for header */
- header {
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+}
+
+/* CSS for header */
+header {
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -63,13 +64,15 @@ nav a:hover {
   }
 }
 
-/* css for footer */
+/* CSS for footer */
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
   position: relative;
+  width: 100%;
+  margin-top: auto;
 }
 
 footer a {
@@ -116,24 +119,24 @@ footer a {
   animation: fadeInUp 1s ease-in-out;
 }
 
-  /* about me css */
-  .aboutMe-title {
-    font-family: 'Arial', sans-serif;
-    font-size: 2rem;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .rounded-circle {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    border: 2px solid #ddd;
-  }
-  
-  section {
+/* About me CSS */
+.aboutMe-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.rounded-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+section {
   background-color: #f9f9f9;
   padding: 20px;
   max-width: 600px;
@@ -141,17 +144,16 @@ footer a {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-  
-  p {
-    font-family: 'Arial', sans-serif;
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.5;
-    text-align: center;
-  }
 
-  /* css for contact */
+p {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  text-align: center;
+}
 
+/* CSS for contact */
 h2 {
   font-family: 'Arial', sans-serif;
   font-size: 2rem;
@@ -211,7 +213,7 @@ span {
   color: #ff0000;
 }
 
-/* css for portfolio */
+/* CSS for portfolio */
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -226,6 +228,7 @@ span {
   text-align: center;
   margin-top: 20px;
 }
+
 .portfolio {
   background-color: #f9f9f9;
   padding: 20px;
@@ -269,13 +272,13 @@ span {
 .grid-item a:hover {
   color: #388E3C;
 }
+
 .grid-item img:hover {
   transform: scale(1.1);
   transition: transform 0.3s;
 }
 
-/* css for resume */
-
+/* CSS for resume */
 .resume {
   display: inline-block;
   font-family: 'Arial', sans-serif;
@@ -338,7 +341,3 @@ li {
     font-size: 0.9rem;
   }
 }
- 
-
-
-  

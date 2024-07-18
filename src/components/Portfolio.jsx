@@ -43,6 +43,12 @@ function Portfolio() {
       description: 'Health Quest is a RESTful API-based web app that aims to provide users with a place to learn and implement good health practices into their routines.Health Quest uses Node.js and Express.js to create a RESTful API, Handlebars.js as the template engine, and MySQL and the Sequelize ORM for the database. User authentication via express-session and cookies protects sensitive user information within a user account.',
       image: '/Health quest app.png',
     },
+    { title: 'Meow Market',
+      link: 'https://group-fivemeowmarket-c7eee0758978.herokuapp.com/',
+      repo: 'https://github.com/eepitsporsche/meow_market',
+      description: 'Meow Market is a full-stack web application that allows users to buy and sell cat-related products. It uses React for the frontend, Node.js and Express.js for the backend, and MongoDB as the database.',
+      image: '/meow market.png',
+    },
 
   ];
 
